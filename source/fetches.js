@@ -1,4 +1,4 @@
-// export const url = /* add your url here */
+export const url = `https://api.github.com/gists/public`/* add your url here */
 
 // @param replayState : boolean, adds token to body
 export const makeParams = (method, body, replayState) => {
