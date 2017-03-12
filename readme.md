@@ -1,4 +1,4 @@
-# Fetch Wrapper for ES6
+# fetch-request-wrapper (A Fetch Wrapper for ES6/ES7)
 
 Fetch wrapper utilizing Async/Await. Returns an object with GET, POST, PUT, DELETE.
 
