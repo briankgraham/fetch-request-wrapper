@@ -1,6 +1,6 @@
 {
   "name": "fetch-request-wrapper",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A wrapper for fetch using async/await",
   "main": "./distribution/fetches.js",
   "scripts": {
