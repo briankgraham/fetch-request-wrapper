@@ -1,8 +1,10 @@
+import 'whatwg-fetch'
+import 'babel-polyfill'
+
 export const url = `https://api.github.com/gists/public`/* add your url here */
 
 // @param replayState : boolean, adds token to body
-export const makeParams = (method, body, replayState) => {
-  let token = localStorage.getItem('token')
+export const makeParams = (method, body) => {
   let params = {
     method,
     headers: {
@@ -10,15 +12,9 @@ export const makeParams = (method, body, replayState) => {
     }
   }
 
-  if (replayState){
-    params.headers['x-access-token'] = body
-    return params
-  }
-  else if(body){
+  if(body){
     params.body = JSON.stringify(body)
   }
-
-  if (token) { params.headers['x-access-token'] = token }
 
   return params
 }
