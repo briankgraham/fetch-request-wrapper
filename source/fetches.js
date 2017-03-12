@@ -1,7 +1,4 @@
 import 'whatwg-fetch'
-import 'babel-polyfill'
-
-export const url = `https://api.github.com/gists/public`/* add your url here */
 
 // @param replayState : boolean, adds token to body
 export const makeParams = (method, body) => {
@@ -21,7 +18,7 @@ export const makeParams = (method, body) => {
 
 const attemptFetch = async (route, params, queryParam = '') => {
   try {
-    let response = await fetch(`${url}${route}/${queryParam}`, params)
+    let response = await fetch(`${route}/${queryParam}`, params)
     let body = await response.json()
     return body
   } catch (error) {
