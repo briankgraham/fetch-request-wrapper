@@ -52,8 +52,6 @@ const fetchDelete = (route, parameters) => {
   return attemptFetch(route, params)
 }
 
-
-// export all fetches as object
 const Fetcher = {
   get: fetchGet,
   post: fetchPost,

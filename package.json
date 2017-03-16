@@ -1,7 +1,8 @@
 {
   "name": "fetch-request-wrapper",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A wrapper for fetch using async/await",
+  "keywords": ["fetch", "request", "http", "https", "simple"],
   "main": "./distribution/fetches.js",
   "scripts": {
     "build": "babel source --out-dir distribution",
