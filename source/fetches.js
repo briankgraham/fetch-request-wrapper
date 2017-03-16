@@ -1,6 +1,5 @@
 import 'whatwg-fetch'
 
-// @param replayState : boolean, adds token to body
 export const makeParams = (method, body) => {
   let params = {
     method,
