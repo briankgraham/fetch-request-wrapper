@@ -7,7 +7,6 @@ Fetch wrapper utilizing Async/Await. Returns an object with GET, POST, PUT, DELE
 - Each request will supply the HTTP Verb, no need to add it to the `parameters` object
 - No need to JSON.stringify/parse: Requests like POST will have a key in `parameters` called `body`, which will be stringified, all responses are parsed as well
 - As of now, it uses Content-Type `application/json`, will be more flexible in future releases
-- GET requests have an optional third argument, `queryParams` that will be attached to the end of the route
 
 ## How to install
 
