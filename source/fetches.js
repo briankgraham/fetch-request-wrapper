@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import 'whatwg-fetch'
 
 const makeParams = (method, body) => {
