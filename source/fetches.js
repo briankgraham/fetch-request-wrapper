@@ -1,6 +1,7 @@
+import 'babel-polyfill'
 import 'whatwg-fetch'
 
-export const makeParams = (method, body) => {
+const makeParams = (method, body) => {
   let params = {
     method,
     headers: {
@@ -52,11 +53,9 @@ const fetchDelete = (route, parameters) => {
   return attemptFetch(route, params)
 }
 
-const Fetcher = {
+export const Fetcher = {
   get: fetchGet,
   post: fetchPost,
   put: fetchPut,
   delete: fetchDelete
 }
-
-export default Fetcher
