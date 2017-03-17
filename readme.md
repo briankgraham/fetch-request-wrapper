@@ -1,6 +1,6 @@
 # fetch-request-wrapper (A Fetch Wrapper for ES6/ES7)
 
-Fetch wrapper utilizing Async/Await. Returns an object with GET, POST, PUT, DELETE.
+Fetch wrapper utilizing Async/Await. Returns an object with GET, POST, PUT, DELETE. Pull Requests Welcome!
 
 - No more repeated code! Let's take what Fetch has already made simple even simpler. Make a request, and await your response. That's it.
 - Each function call takes a `route`, and an options object called `parameters` (ex. parameters = { body: { found: true } })
