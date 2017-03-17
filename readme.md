@@ -17,3 +17,8 @@ Fetch wrapper utilizing Async/Await. Returns an object with GET, POST, PUT, DELE
 - `const {get, post, put, delete} from 'fetch-request-wrapper'`
 - `get('https://api.github.com/gists/public').then(result => console.log(result))` 
 - `post(url, { body: { name: 'Sally' } }).then(result => console.log(result))`
+
+## Temporary Requirements
+
+- Assumes you are running some sort of ES6/ES7 Build process with Babel
+- Requires 'babel-polyfill' to run
