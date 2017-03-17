@@ -1,6 +1,6 @@
 {
   "name": "fetch-request-wrapper",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A wrapper for fetch using async/await",
   "keywords": [
     "fetch",
