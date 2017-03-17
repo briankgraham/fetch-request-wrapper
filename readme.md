@@ -10,9 +10,6 @@ Use most recent version! Earlier builds (< 0.0.9) missed certain dependencies th
 - No need to JSON.stringify/parse: Requests like POST will have a key in `parameters` called `body`, which will be stringified, all responses are parsed as well
 - As of now, it uses Content-Type `application/json`, will be more flexible in future releases
 
-## Requirements
-- needs 'babel-polyfill' as part of your build process.
-
 ## How to install
 
 - Clone/download this repo or run `npm install --save fetch-request-wrapper`
