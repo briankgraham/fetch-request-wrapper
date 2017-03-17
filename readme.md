@@ -2,6 +2,8 @@
 
 Fetch wrapper utilizing Async/Await. Returns an object with GET, POST, PUT, DELETE. Pull Requests Welcome!
 
+Use most recent version! Earlier builds missed certain dependencies that may cause issues if you didn't have them in your build already.
+
 - No more repeated code! Let's take what Fetch has already made simple even simpler. Make a request, and await your response. That's it.
 - Each function call takes a `route`, and an options object called `parameters` (ex. parameters = { body: { found: true } })
 - Each request will supply the HTTP Verb, no need to add it to the `parameters` object
