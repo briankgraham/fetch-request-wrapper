@@ -16,7 +16,9 @@ Use most recent version! Earlier builds (< 0.0.9) missed certain dependencies th
 
 ## How to use
 
-- `import {Fetcher} from 'fetch-request-wrapper'`
-- `const {get, post} = Fetcher`
-- `get('https://api.github.com/gists/public').then(result => console.log(result))` 
-- `post(url, { body: { name: 'Sally' } }).then(result => console.log(result))`
+```js
+  import {Fetcher} from 'fetch-request-wrapper'
+  const {get, post} = Fetcher
+  get('https://api.github.com/gists/public').then(result => console.log(result))
+  post(url, { body: { name: 'Sally' } }).then(result => console.log(result))
+```
